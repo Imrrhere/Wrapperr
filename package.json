@@ -1,0 +1,38 @@
+{
+  "name": "wraper2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WrapeR2 - AI Search Assistant powered by Claude & DuckDuckGo",
+  "homepage": "https://wraper2.vercel.app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@stripe/stripe-js": "^7.3.0",
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "^2.49.8",
+    "micro": "^10.0.1",
+    "next": "^14.2.29",
+    "react": "^18",
+    "react-dom": "^18",
+    "stripe": "^18.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

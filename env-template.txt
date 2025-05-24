@@ -1,0 +1,30 @@
+# Environment Variables Template for WrapeR2 SaaS
+# 
+# FOR LOCAL DEVELOPMENT:
+# Copy this content to .env.local and update with your actual API keys
+#
+# FOR VERCEL DEPLOYMENT:
+# Add these variables in your Vercel dashboard under Settings > Environment Variables
+
+# Anthropic API Key for Claude 3.5 Sonnet
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+# Supabase Configuration
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url_here
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+
+# Stripe Configuration
+STRIPE_SECRET_KEY=your_stripe_secret_key_here
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key_here
+STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret_here
+
+# Stripe Price IDs
+STRIPE_PRO_PRICE_ID=your_stripe_pro_price_id_here
+STRIPE_TEAM_PRICE_ID=your_stripe_team_price_id_here
+
+# Instructions:
+# 1. Copy this file to .env.local for local development
+# 2. For Vercel deployment, add all these variables in your Vercel dashboard
+# 3. Make sure to run the Supabase schema setup first (see supabase-schema.sql)
+# 4. Configure your Stripe products and webhooks 

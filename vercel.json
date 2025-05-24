@@ -1,0 +1,9 @@
+{
+  "name": "wraper2",
+  "functions": {
+    "pages/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["iad1"]
+} 
